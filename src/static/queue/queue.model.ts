@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose'
-import { ModelsName } from '../../../enums/database.enum'
-import { IModels } from '../../../database/database.types'
-import { ModelsOptions } from 'twisted-common/src/config'
+import { ModelsOptions } from '../../models.config'
+import { IModels } from '../../database.types'
+import { ModelsName } from '../../enum/collections.enum'
 // Schema definition
 const schema = new mongoose.Schema({
   queueId: {

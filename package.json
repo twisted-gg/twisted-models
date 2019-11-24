@@ -19,8 +19,15 @@
   },
   "homepage": "https://gitlab.com/twisted.gg/twisted-models#readme",
   "devDependencies": {
+    "@types/mongoose": "^5.5.32",
     "tslint": "5.16.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "3.4.3"
+  },
+  "dependencies": {
+    "@nestjs/swagger": "^3.1.0",
+    "mongoose": "^5.7.12",
+    "twisted": "^1.4.0",
+    "twisted-common": "git+https://gitlab.com/twisted.gg/twisted-common.git"
   }
 }

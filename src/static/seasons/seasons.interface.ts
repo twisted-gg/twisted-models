@@ -1,4 +1,4 @@
-import { IBaseInterface } from '../../../config'
+import { IBaseInterface } from '../../base'
 
 export interface ISeasonModel extends IBaseInterface {
   id: number
