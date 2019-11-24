@@ -1,0 +1,26 @@
+{
+  "name": "twisted-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "lint:fix": "tslint --fix -p tsconfig.json -c tslint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/twisted.gg/twisted-models.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/twisted.gg/twisted-models/issues"
+  },
+  "homepage": "https://gitlab.com/twisted.gg/twisted-models#readme",
+  "devDependencies": {
+    "tslint": "5.16.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "3.4.3"
+  }
+}
