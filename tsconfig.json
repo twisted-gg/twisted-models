@@ -12,7 +12,7 @@
     "incremental": true,
     "strict": true,
     "noImplicitAny": false,
-    "allowJs": true
+    "declaration": true
   },
   "exclude": ["node_modules", "dist", "src/**/*.spec.ts"]
 }
