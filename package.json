@@ -27,6 +27,7 @@
     "typescript": "3.4.3"
   },
   "dependencies": {
+    "@nestjs/mongoose": "^6.1.2",
     "@nestjs/swagger": "^3.1.0",
     "mongoose": "^5.7.12",
     "twisted": "^1.4.0",
