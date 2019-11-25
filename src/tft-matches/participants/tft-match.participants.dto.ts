@@ -1,7 +1,7 @@
 import { ApiResponseModelProperty } from '@nestjs/swagger'
 import { TftMatchParticipantsUnitsDTO } from './units/tft-match.participants.units.dto'
 import { TftMatchParticipantsCompanionDTO } from './companion'
-import { GetSummonerDTO } from '../../../../twisted-summoner-api/src/dto/summoner.dto'
+import { GetSummonerDTO } from '../../summoner'
 
 export class TftMatchParticipantsModelDto {
   @ApiResponseModelProperty()

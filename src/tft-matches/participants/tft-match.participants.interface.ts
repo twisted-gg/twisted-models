@@ -3,7 +3,7 @@ import { ITftMatchCompanionModel } from './companion'
 import { ITftMatchTraitsModel } from './traits'
 import { ITftMatchUnitsModel } from './units'
 import { IBaseInterface } from '../../base'
-import { ISummonerModel } from '../summoner'
+import { ISummonerModel } from '../../summoner'
 
 export interface TftMatchParticipantsModel extends IBaseInterface {
   placement: number
