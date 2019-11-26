@@ -1,4 +1,4 @@
-import { Regions } from 'twisted/dist/constants'
+import { Regions } from 'twisted-common/dist/wrapper/constants'
 import { ApiResponseModelProperty } from '@nestjs/swagger'
 import { QueueDTO } from '../../static'
 import { TftMatchParticipantsModelDto } from '../participants'

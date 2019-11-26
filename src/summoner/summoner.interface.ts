@@ -1,4 +1,4 @@
-import { Regions } from 'twisted/dist/constants'
+import { Regions } from 'twisted-common/dist/wrapper/constants'
 import { ISummonerLeagueModel } from '../summoner-leagues/summoner-leagues.interface'
 import { IBaseInterface } from '../base'
 

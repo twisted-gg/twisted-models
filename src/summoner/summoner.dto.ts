@@ -1,9 +1,9 @@
 import { ApiModelProperty, ApiResponseModelProperty, ApiModelPropertyOptional } from '@nestjs/swagger'
 import { IsString, IsNotEmpty, IsEnum, IsOptional } from 'class-validator'
-import { Regions } from 'twisted/dist/constants'
-import { ListRegions } from 'twisted-common'
+import { Regions } from 'twisted-common/dist/wrapper/constants'
 import { GetSummonerLeaguesDTO } from '../summoner-leagues'
 import { BaseDTO } from '../base'
+import { ListRegions } from 'twisted-common'
 
 // Queries
 export class GetSummonerQueryDTO {

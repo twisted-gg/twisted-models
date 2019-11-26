@@ -1,4 +1,4 @@
-import { Regions } from 'twisted/dist/constants'
+import { Regions } from 'twisted-common/dist/wrapper/constants'
 import { IBaseInterface } from '../../base'
 import { IQueueModel } from '../../static'
 import { TftMatchParticipantsModel } from '../participants'
