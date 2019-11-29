@@ -1,5 +1,5 @@
 
-import { TraitDto } from 'twisted-common/dist/wrapper/dto'
+import { TraitDto } from '@twisted.gg/common/dist/wrapper/dto'
 import { IBaseInterface } from '../../../base'
 
 // Interfae definition

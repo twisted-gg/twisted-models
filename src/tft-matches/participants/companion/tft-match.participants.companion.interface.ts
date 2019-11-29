@@ -1,4 +1,4 @@
-import { CompanionDto } from 'twisted-common/dist/wrapper/dto'
+import { CompanionDto } from '@twisted.gg/common/dist/wrapper/dto'
 import { IBaseInterface } from '../../../base'
 
 // Interfae definition
