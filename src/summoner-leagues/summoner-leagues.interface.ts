@@ -8,7 +8,7 @@ export interface ISummonerLeagueModel extends IBaseInterface {
   wins: number
   veteran: boolean
   losses: number
-  rank: number
+  rank: string
   leagueId: string
   inactive: boolean
   freshBlood: boolean

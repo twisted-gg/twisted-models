@@ -41,7 +41,7 @@ const schema = new mongoose.Schema({
   },
 
   rank: {
-    type: Number,
+    type: String,
     required: true
   },
 
