@@ -18,4 +18,5 @@ publish:
     refs:
       - master
   script:
+    - npm run build
     - npm publish
