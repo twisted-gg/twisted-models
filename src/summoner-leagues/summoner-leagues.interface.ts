@@ -1,6 +1,7 @@
 import { IBaseInterface } from '../base'
 
 export interface ISummonerLeagueModel extends IBaseInterface {
+  queueId: number
   queueType: string
   summonerName: string
   hotStreak: boolean

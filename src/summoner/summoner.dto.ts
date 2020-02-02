@@ -72,7 +72,7 @@ export class GetSummonerDTO extends BaseDTO {
   region!: Regions
 
   @ApiResponseModelProperty({
-    type: GetSummonerDTOLeagues
+    type: [GetSummonerDTOLeagues]
   })
-  leagues!: Map<string, GetSummonerDTOLeagues>
+  leagues!: GetSummonerDTOLeagues[]
 }

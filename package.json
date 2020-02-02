@@ -1,13 +1,14 @@
 {
   "name": "@twisted.gg/models",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "lint:fix": "tslint --fix -p tsconfig.json -c tslint.json",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

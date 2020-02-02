@@ -65,8 +65,7 @@ const schema = new mongoose.Schema({
   },
 
   leagues: {
-    type: Map,
-    of: SummonerLeagueModel.schema,
+    type: [SummonerLeagueModel.schema],
     required: false,
     default: {}
   }

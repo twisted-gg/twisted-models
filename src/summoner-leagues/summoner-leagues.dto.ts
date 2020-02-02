@@ -6,6 +6,9 @@ export class GetSummonerLeaguesDTO extends BaseDTO {
   _id!: string
 
   @ApiResponseModelProperty()
+  queueId!: number
+
+  @ApiResponseModelProperty()
   queueType!: string
 
   @ApiResponseModelProperty()

@@ -5,6 +5,11 @@ import { ModelsName } from '../enum/collections.enum'
 
 // Schema definition
 const schema = new mongoose.Schema({
+  queueId: {
+    type: Number,
+    required: true
+  },
+
   queueType: {
     type: String,
     required: true
