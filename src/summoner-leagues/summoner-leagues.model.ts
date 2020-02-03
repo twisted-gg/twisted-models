@@ -15,8 +15,8 @@ const schema = new mongoose.Schema({
     required: true
   },
 
-  summonerName: {
-    type: String,
+  mmr: {
+    type: Number,
     required: true
   },
 
@@ -61,11 +61,6 @@ const schema = new mongoose.Schema({
   },
 
   tier: {
-    type: String,
-    required: true
-  },
-
-  summonerId: {
     type: String,
     required: true
   },

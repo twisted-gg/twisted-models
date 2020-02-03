@@ -12,7 +12,7 @@ export class GetSummonerLeaguesDTO extends BaseDTO {
   queueType!: string
 
   @ApiResponseModelProperty()
-  summonerName!: string
+  mmr!: number
 
   @ApiResponseModelProperty()
   hotStreak!: boolean
@@ -40,9 +40,6 @@ export class GetSummonerLeaguesDTO extends BaseDTO {
 
   @ApiResponseModelProperty()
   tier!: string
-
-  @ApiResponseModelProperty()
-  summonerId!: string
 
   @ApiResponseModelProperty()
   leaguePoints!: number

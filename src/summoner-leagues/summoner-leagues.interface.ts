@@ -3,7 +3,7 @@ import { IBaseInterface } from '../base'
 export interface ISummonerLeagueModel extends IBaseInterface {
   queueId: number
   queueType: string
-  summonerName: string
+  mmr: number
   hotStreak: boolean
   wins: number
   veteran: boolean
@@ -13,7 +13,6 @@ export interface ISummonerLeagueModel extends IBaseInterface {
   inactive: boolean
   freshBlood: boolean
   tier: string
-  summonerId: string
   leaguePoints: number
   summoner?: string
   createdAt: Date
